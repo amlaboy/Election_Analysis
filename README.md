@@ -19,7 +19,7 @@ To get the list of candidate names we set up a condition in the loop, whenever a
 3. Calculate the total number of votes each candidate recieved
 To calculate the number of votes for each candidate, we first had to set their votes to zero. Then add to the loop that whenever it sees that the candidate was voted for, it will add a vote to their count.
 
->       (candidate_votes[candidate_name] = 0
+>(candidate_votes[candidate_name] = 0
 >candidate_votes[candidate_name] += 1) 
 4. Calculate the percentage of votes each candidate won.
 To calculate the percentage of votes we collected the number of each candidate got then divided it by the total number of votes.
@@ -31,9 +31,9 @@ To calculate the percentage of votes we collected the number of each candidate g
 We figured out the winner by comparing the votes they got to the total number. As well as doing that for the percentages as well
 
 >(if (votes > winning_count) and (vote_percentage > winning_percentage):
-            winning_count = votes
-            winning_candidate = candidate_name
-            winning_percentage = vote_percentage)
+>            winning_count = votes
+>            winning_candidate = candidate_name
+>            winning_percentage = vote_percentage)
 
 ## Resources 
 - Data Source: election_results.csv
